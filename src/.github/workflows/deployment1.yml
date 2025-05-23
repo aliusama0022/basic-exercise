@@ -1,9 +1,9 @@
-name: Deployment Exercise 1 
+name: Deployment Exercise 1
 
 on: push
 
 jobs:
-  Deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
